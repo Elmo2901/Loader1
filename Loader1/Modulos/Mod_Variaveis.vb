@@ -11,7 +11,7 @@ Module Mod_Variaveis
     Public NomeComput As String = Dns.GetHostName           ' Nome do Computador
     Dim NewIps As IPHostEntry = GetHostEntry(NomeComput)
     Public MeuIp As String = CType(NewIps.AddressList.GetValue(1), IPAddress).ToString()    'Nº do Ip do Computador
-    Public NewDiretorio As String = "https://raw.githubusercontent.com/gustavovg/loader/master/Bco_Loader/"  ' "C:\Program Files (x86)\Loader\"    ' Nome do diretório padrão
+    Public NewDiretorio As String = "https://github.com/Elmo2901/Loader/"  ' https://raw.githubusercontent.com/gustavovg/loader/master/Bco_Loader/"  ' "C:\Program Files (x86)\Loader\"    ' Nome do diretório padrão
     Public ArquivoPadrao As String = "Bco_Loader.dat"                   ' Nome do Banco de Dados 
     Public fluxoTexto As String = ""
     Public linhaTexto As String = ""
